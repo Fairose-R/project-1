@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poor richard;
+    font-size: 25px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#submit {
+    background: #d3d3d3 !important;
+    text-align: center;
+    
+}
+#submit .container{
+    
+}
+#submit  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#submit img{
+    width: 250px;
+    height: 250px;
+    padding-top: 15px;
+}
+#submit  .card{
+    width: 300px;
+    height: 450px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom:50px ;
+    margin-left:400px ;
+    margin-right: 300px;
+    
+    transition: .8s;
+}
+#submit  .card:hover{
+    box-shadow: inset 10px 10px 20px  rgba(0, 0, 0, .5),
+                inset -4px -4px 10px  white !important;
+    transition: .8s;
+}
+
+#submit .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

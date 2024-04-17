@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poor richard;
+    font-size: 25px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, .5);
+    background-color: black;
+    font-size: 30px;
+}
+.navbar .navbar-brand{
+    font-size: 30px!important;
+    font-weight: 800;
+    color: #29f700!important;
+}
+#navbarSupportedContent a{ 
+    color:white;
+    border-botton: 2px solid  transparent;
+}     
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.nav-item{
+    padding-right: 16px ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rose {
+    background: #d3d3d3 !important;
+    margin-right: 300px ;
+    
+}
+#rose h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#rose img{
+    width: 400px;
+    height: 400px;
+    padding-top: 15px;
+}
+#rose  .card{
+    width: 850px;
+    height: 450px;
+    margin-right: 300px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+    flex-direction: row;
+}
+#rose .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#rose  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}

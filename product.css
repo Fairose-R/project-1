@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poor richard;
+    font-size: 25px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#catering {
+    background: #d3d3d3 !important;
+    
+}
+#catering  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#catering  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#catering  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#catering  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#catering  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#marriage{
+    background: #d3d3d3!important ;
+}
+#marriage  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#marriage  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+
+#marriage  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+
+#marriage  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+
+#marriage  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#dj {
+    background: #d3d3d3 !important;
+    
+}
+#dj  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#dj  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#dj  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#dj  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#dj  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#beauty {
+    background: #d3d3d3 !important;
+    
+}
+#beauty  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#beauty  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#beauty .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#beauty  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#beauty  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#mehandi {
+    background: #d3d3d3 !important;
+    
+}
+#mehandi h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#mehandi  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#mehandi  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#mehandi  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#mehandi  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#catering {
+    background: #d3d3d3 !important;
+    
+}
+#catering  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#catering  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#catering  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#catering  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#catering  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#catering {
+    background: #d3d3d3 !important;
+    
+}
+#catering  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#catering  img{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+}
+#catering  .card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5),
+                inset 5px 5px 10px white !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px ;
+    transition: .8s;
+}
+#catering  .card:hover{
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, .5),
+                inset -4px -4px 10px white !important;
+    transition: .8s;
+}
+
+#catering  .card .btn{
+    background: #29f700;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
